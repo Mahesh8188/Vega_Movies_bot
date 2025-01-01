@@ -44,7 +44,7 @@ NO_RESULTS_MSG = bool(environ.get("NO_RESULTS_MSG", True))
 # MongoDB information
 DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://devashi624:devashi624@cluster0.01nzx.mongodb.net/?retryWrites=true&w=majority")
 DATABASE_NAME = environ.get('DATABASE_NAME', "Cluster0")
-COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
+COLLECTION_NAME = environ.get('COLLECTION_NAME', 'lazyfilesx')
 
 # Others
 VERIFY = bool(environ.get('VERIFY', False))
